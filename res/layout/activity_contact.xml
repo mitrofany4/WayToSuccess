@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_data"
+            android:id="@+id/textView" android:layout_gravity="center"
+            android:textSize="21dp" android:layout_margin="5dp" android:textStyle="bold"/>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:gravity="right" android:layout_marginRight="80dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:id="@+id/textView2" android:textSize="21dp" android:layout_marginRight="10dp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/nameET" android:textSize="21dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:id="@+id/linearLayout" android:gravity="right"
+                  android:layout_marginRight="80dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone"
+                  android:id="@+id/textView3" android:textSize="21dp" android:layout_marginRight="10dp"/>
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:inputType="phone" android:ems="10" android:id="@+id/phoneET"
+                  android:textSize="21dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:id="@+id/linearLayout2" android:gravity="right" android:layout_marginRight="80dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date"
+                  android:id="@+id/textView4" android:textSize="21dp" android:layout_marginRight="10dp"
+                  android:gravity="right"/>
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:ems="10" android:id="@+id/DateET"
+                  android:textSize="21dp" android:inputType="date" android:clickable="true"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:id="@+id/OKbutton" android:layout_gravity="center_horizontal" android:layout_marginTop="15dp"
+            android:onClick="sendInfo_Click"/>
+</LinearLayout>

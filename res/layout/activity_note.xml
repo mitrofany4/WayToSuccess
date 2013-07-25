@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_expert"
+            android:id="@+id/textView" android:layout_gravity="center" android:textSize="18dp"
+            android:layout_margin="5dp" android:gravity="center_horizontal" android:textStyle="bold"/>
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center|left"
+            android:layout_marginLeft="60dp" android:id="@+id/RadioGroup1">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salimova"
+                android:id="@+id/radioButton" android:layout_gravity="center|left" android:textSize="18dp"
+                android:layout_margin="1dp"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/derbenceva"
+                android:id="@+id/radioButton2" android:layout_gravity="center|left" android:textSize="18dp"
+                android:layout_margin="1dp"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dovgal"
+                android:id="@+id/radioButton3" android:layout_gravity="center|left" android:textSize="18dp"
+                android:layout_margin="1dp"/>
+    </RadioGroup>
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/further"
+            android:id="@+id/furtherbutton" android:layout_gravity="center" android:layout_marginTop="5dp"
+            android:textSize="18dp" android:onClick="further_Click" android:visibility="gone"/>
+</LinearLayout>

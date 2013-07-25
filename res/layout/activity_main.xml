@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/horizontalScrollView">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:orientation="horizontal" android:gravity="center_vertical"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                android:layout_margin="10dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/CalIV" android:src="@drawable/calendar" android:layout_gravity="center"
+                    android:maxHeight="128dp" android:maxWidth="128dp" android:clickable="true"
+                    android:onClick="calendar_Click"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/calendar"
+                    android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_margin="10dp" android:id="@+id/linearLayout">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/ExpertIV" android:src="@drawable/people" android:layout_gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/expert"
+                      android:id="@+id/textView2" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_margin="10dp" android:id="@+id/linearLayout2">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/imageView3" android:src="@drawable/video" android:layout_gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/video"
+                      android:id="@+id/textView3" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_margin="10dp" android:id="@+id/linearLayout3">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/HoroIV" android:src="@drawable/horo" android:layout_gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/horo"
+                      android:id="@+id/textView4" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_margin="10dp" android:id="@+id/linearLayout4">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/love"
+                      android:id="@+id/textView5" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_margin="10dp" android:id="@+id/linearLayout5">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/HelpIV" android:src="@drawable/help" android:layout_gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/help"
+                      android:id="@+id/textView6" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>

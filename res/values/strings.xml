@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WayToSuccess</string>
+    <string name="expert">Эксперты</string>
+    <string name="calendar">Запись на прием</string>
+    <string name="video">Видео</string>
+    <string name="love">Совместимость</string>
+    <string name="help">Помощь</string>
+    <string name="horo">Гороскопы</string>
+    <string name="select_expert">На консультацию к какому из наших экспертов Вы хотели бы записаться? </string>
+    <string name="salimova">Алия Салимова</string>
+    <string name="derbenceva">Ильмира Дербенцева</string>
+    <string name="dovgal">Светлана Довгаль</string>
+    <string name="further">Далее</string>
+    <string name="enter_data">Введите данные о себе:</string>
+    <string name="name">Имя:</string>
+    <string name="phone">Номер телефона:</string>
+    <string name="date">Желаемая дата:</string>
+    <string name="ok">Готово</string>
+    <string name="email">mitrofany4@yandex.ua</string>
+    <string name="email_subject">Новая запись на прием</string>
+</resources>
