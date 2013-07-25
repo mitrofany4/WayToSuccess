@@ -50,7 +50,11 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e55481c-0b76-476c-bbea-b68acf31a0be" name="Default" comment="" />
+    <list default="true" id="1e55481c-0b76-476c-bbea-b68acf31a0be" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/volchenko/WayToSuccess/ContactActivity.java" afterPath="$PROJECT_DIR$/src/com/volchenko/WayToSuccess/ContactActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="WayToSuccess.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -169,10 +173,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContactActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/volchenko/WayToSuccess/ContactActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="0" selection-start="3960" selection-end="3960" vertical-scroll-proportion="0.0" vertical-offset="2203" max-vertical-offset="3179">
+            <state line="156" column="63" selection-start="4953" selection-end="4953" vertical-scroll-proportion="0.30706522" vertical-offset="2352" max-vertical-offset="3179">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,7 +187,7 @@
       <file leaf-file-name="GMailSender.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/volchenko/WayToSuccess/GMailSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1870">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1870">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,10 +222,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="66" selection-start="380" selection-end="380" vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="816">
+            <state line="8" column="66" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -233,6 +237,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -251,8 +263,8 @@
         <option value="$PROJECT_DIR$/src/com/volchenko/WayToSuccess/Note.java" />
         <option value="$PROJECT_DIR$/src/com/volchenko/WayToSuccess/GMailSender.java" />
         <option value="$PROJECT_DIR$/src/com/volchenko/WayToSuccess/JSSEProvider.java" />
-        <option value="$PROJECT_DIR$/src/com/volchenko/WayToSuccess/ContactActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/volchenko/WayToSuccess/ContactActivity.java" />
       </list>
     </option>
   </component>
@@ -262,7 +274,7 @@
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -769,28 +781,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/volchenko/WayToSuccess/ContactActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="3960" selection-end="3960" vertical-scroll-proportion="0.0" vertical-offset="2203" max-vertical-offset="3179">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="8" column="66" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="816">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/volchenko/WayToSuccess/GMailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1870">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/volchenko/WayToSuccess/ContactActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="66" selection-start="380" selection-end="380" vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="816">
-          <folding />
+        <state line="156" column="63" selection-start="4953" selection-end="4953" vertical-scroll-proportion="0.30706522" vertical-offset="2352" max-vertical-offset="3179">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

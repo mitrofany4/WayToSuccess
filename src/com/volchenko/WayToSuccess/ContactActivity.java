@@ -160,7 +160,7 @@ public class ContactActivity extends SherlockActivity {
             sender.sendMail("Новая запись на прием",
                     body,
                     "mitrofany4@gmail.com",
-                    "mitrofany4@yandex.ua");
+                    "mitrofany4@yandex.ua, abobir@ves-media.com");
         } catch (Exception e) {
             Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
         }
